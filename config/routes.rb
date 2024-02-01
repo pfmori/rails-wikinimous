@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   # # Delete
   # delete "articles/:id", to: "articles#destroy"
   resources :articles
+  root to: 'articles#index'
 end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
